@@ -1,0 +1,6 @@
+{
+  "name": "Atrium · Visual Mind-Map",
+  "description": "Interactive SVG visual mind-map and workflow graph with email/task intake parsing, blueprint importing, companion-gated editing, and local-first PWA persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

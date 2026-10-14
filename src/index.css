@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  }
+
+  html,
+  body {
+    background-color: #0a0a0a;
+    color: #f1f5f9;
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Subtle architectural grid backdrop */
+.atrium-grid-bg {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+svg {
+  isolation: isolate;
+}
+
+.glow-emerald {
+  filter: drop-shadow(0 0 10px rgba(52, 211, 153, 0.45));
+}
+
+.glow-violet {
+  filter: drop-shadow(0 0 10px rgba(139, 92, 246, 0.45));
+}
+
+.glow-amber {
+  filter: drop-shadow(0 0 10px rgba(251, 191, 36, 0.45));
+}

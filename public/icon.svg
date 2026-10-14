@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#0a0a0c"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" stroke="#27272a" stroke-width="4"/>
+  <!-- Links -->
+  <line x1="256" y1="256" x2="136" y2="148" stroke="#52525b" stroke-width="8" stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="384" y2="156" stroke="#52525b" stroke-width="8" stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="364" y2="368" stroke="#52525b" stroke-width="8" stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="144" y2="360" stroke="#52525b" stroke-width="8" stroke-linecap="round"/>
+  <!-- Outer Nodes -->
+  <circle cx="136" cy="148" r="32" fill="#0d0d0f" stroke="#34d399" stroke-width="10"/>
+  <circle cx="136" cy="148" r="8" fill="#34d399"/>
+  <circle cx="384" cy="156" r="36" fill="#0d0d0f" stroke="#8b5cf6" stroke-width="10"/>
+  <circle cx="384" cy="156" r="9" fill="#8b5cf6"/>
+  <circle cx="364" cy="368" r="32" fill="#0d0d0f" stroke="#fbbf24" stroke-width="10"/>
+  <circle cx="364" cy="368" r="8" fill="#fbbf24"/>
+  <circle cx="144" cy="360" r="28" fill="#0d0d0f" stroke="#38bdf8" stroke-width="10"/>
+  <circle cx="144" cy="360" r="7" fill="#38bdf8"/>
+  <!-- Core Node -->
+  <circle cx="256" cy="256" r="64" fill="none" stroke="#34d399" stroke-width="4" stroke-dasharray="10 8" opacity="0.6"/>
+  <circle cx="256" cy="256" r="46" fill="#0d0d0f" stroke="#34d399" stroke-width="12"/>
+  <circle cx="256" cy="256" r="14" fill="#34d399"/>
+</svg>
